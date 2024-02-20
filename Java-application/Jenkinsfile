@@ -1,6 +1,6 @@
 pipeline {
   agent {
-    docker { image 'openjdk:23-oracle' }
+    docker { image 'jenkins-java:latest' }
   }
   stages {
     stage('Test') {
